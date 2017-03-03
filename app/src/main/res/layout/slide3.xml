@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <TextView
+            android:text="3.Learn from the best"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:id="@+id/textView6"
+            android:layout_below="@+id/imageView12"
+            android:layout_centerHorizontal="true" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/certification"
+            android:layout_marginTop="13dp"
+            android:id="@+id/imageView12"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+
+        <TextView
+        android:text="You’re guided and mentored by highly skilled professionals representing some of the top talent in technology, who not only teach you industry best practices but the “soft skills” that set you up for ultimate success."
+        android:textSize="22sp"
+        android:textStyle="italic"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:layout_marginBottom="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    </LinearLayout>
+    <Button
+        android:text="Skip"
+        android:background="@android:color/transparent"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:id="@+id/button7" />
+
+    <Button
+        android:text="Next"
+        android:background="@android:color/transparent"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="17dp"
+        android:id="@+id/button8" />
+</RelativeLayout>

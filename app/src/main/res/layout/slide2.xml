@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+
+    <Button
+        android:text="Skip"
+        android:background="@android:color/transparent"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:id="@+id/button7" />
+
+    <Button
+        android:text="Next"
+        android:background="@android:color/transparent"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="17dp"
+        android:id="@+id/button8" />
+
+    <TextView
+    android:text="You receive valuable industry experience by working on real-world projects so that you’re truly “job-ready.”"
+    android:textColor="@android:color/black"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="22sp"
+    android:textStyle="italic"
+    android:gravity="center"
+    android:id="@+id/textView3"
+        android:layout_weight="0.26"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="38dp" />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:src="@drawable/globe1"
+        android:id="@+id/imageView10"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="2 Gain real-world experience"
+        android:textColor="@android:color/black"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/button7"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Revature Pro</string>
+
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="start">Start</string>
+    <string name="title_slide1"></string>
+    <string name="desc_slide1"></string>
+    <string name="title_slide2"></string>
+    <string name="desc_slide2"></string>
+    <string name="title_slide3"></string>
+    <string name="desc_slide3"></string>
+</resources>
